@@ -1,13 +1,4 @@
-/* Variables */
-/* Colors 
-$bgBlue: #31485F;
-$darkBlue: #1C2B3B;
-$lightBlue: #4D6E8C;
-$green: #00A786;
-$offwhite: #92A6A7;
-$red: #F9213E;
-*/
-/* Set Layout */
+/* Set Layout & Resets */
 * {
     -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
 }
@@ -17,20 +8,35 @@ body {
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;
 	 margin: 0px;
+	 height: 100%;
+	 width: 100%;
  }
 html {
 	background-color: #000;
 	padding: 0px;
 	margin: 0px;
-	font-family: helvetica, arial;
+	font-family: helvetica-neue, helvetica, arial;
+	height: 100%;
+	width: 100%;
 }
 h1,h2,h3,h4,p,div {margin: 0px 0px;}
+a {text-decoration: none;}
+
+/* colors & states */
+.green, .active {color: #00A786 !important;}
+.bgBlue {color: #31485F !important;}
+.darkBlue{color: #1C2B3B !important;}
+.lightBlue {color:#4D6E8C !important;}
+.offwhite {color: #92A6A7 !important;}
+.red {color: #F9213E !important;}
+
+/* doc css */
 #doc {
 	background-color: #31485F;
-	border-radius: 8px;
 	padding: 10px 10px;
-	margin: 0px;
+	height: 100%;
 }
+/* header */
 #header {
 	display: block;
 	margin-bottom: 30px;
@@ -41,92 +47,87 @@ h1,h2,h3,h4,p,div {margin: 0px 0px;}
 	display: inline-block;
 	font-size: 20px;
 }
-
-#info {
-	position: relative;
-	top: 10px;
-	right: 10px;
-	display: none;
+.icon-info-sign {
+	float: right;
 }
+.icon-remove-sign {
+	float: right;
+}
+/* main */
 #main {
-	margin-bottom: 50px;
+	margin-bottom: 40px;
 }
-#main h2 {
-	color: #92A6A7;
+#question {
 	font-size: 36px;
 	width: 330px;
 	margin-bottom: 30px;
 }
-#contentWrap p {
-	font-size: 20px;
-	color: #4D6E8C;
-	padding: 10px 0px;
-}
-.green {
-	color: #00A786;
-}
-#checkYes span, #checkNo span {
-	text-decoration: none;
-	color: #fff;
-	font-weight: bold;
-}
-#checkYes span {
-	font-size: 70px;
-	text-align: center;
-	width: 100px;
-	height: 100px;
-	display: inline-block;
-	padding-top: 10%;
-}
+
+/* buttons */
 #checkYes {
-	width: 100px;
-	height: 100px;
+	width: 80px;
+	height: 80px;
 	margin: 0 auto;
-	border: 14px solid #1C2B3B;
-	border-radius: 150px;
+	border: 8px solid #1C2B3B;
+	border-radius: 80px;
 	background-color: #00867A;
 }
-#checkNo span {
-	font-size: 30px;
-	text-align: center;
-	width: 50px;
-	height: 50px;
-	display: inline-block;
-	padding-top: 0%;
+.icon-ok-btn {
+	font-size: 50px;
+	color: #fff;
+	position: relative;
+	top: 16px;
+	left: 15px;
 }
 #checkNo {
 	width: 50px;
 	height: 50px;
 	margin: 0 auto;
-	border: 14px solid #1C2B3B;
-	border-radius: 150px;
+	border: 8px solid #1C2B3B;
+	border-radius: 50px;
 	background-color: #F9213E;
 	z-index: -1;
-	margin-top: -30px;
+	margin-top: -16px;
 }
-#calendar {
-	height: 68px;
-	border-top: 4px solid #1C2B3B;
+.icon-remove-btn {
+	font-size: 26px;
+	color: #fff;
+	position: relative;
+	top: 12px;
+	left: 14px;
+}
+#streak {
+	font-size: 14px;
 	padding: 10px 0px;
+}
+
+/* calendar */
+
+#calendar {
+	height: 75px;
+	border-top: 4px solid #1C2B3B;
 }
 #calendarList {
 	list-style: none;
+	height: inherit;
 	padding: 0px;
+	margin: 6px 0px;
 }
 #calendarList li {
+	height: 60px;
 	float: left;
 	width: 17%;
 	padding-left: 1%;
 	padding-right: 1%;
 	border-right: 2px solid #1C2B3B;
 	color: #92A6A7;
-	font-size: 28px;
+	font-size: 14px;
 	font-weight: bold;
 	text-align: center;
 	text-transform: uppercase;
 }
 #calendarList li span {
-	font-size: 16px;
+	font-size: 14px;
 }
 #calendarList li:last-child {
 	border: none;

@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/travis/Phonegap/habitual/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m \
-  /Users/travis/Phonegap/habitual/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h
+  /Users/travisfavaron/Phonegap/Habitual/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m \
+  /Users/travisfavaron/Phonegap/Habitual/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h

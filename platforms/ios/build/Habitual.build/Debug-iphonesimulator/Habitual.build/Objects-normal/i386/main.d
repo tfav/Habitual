@@ -1,2 +1,2 @@
 dependencies: \
-  /Users/travis/Phonegap/habitual/platforms/ios/Habitual/main.m
+  /Users/travisfavaron/Phonegap/Habitual/platforms/ios/Habitual/main.m

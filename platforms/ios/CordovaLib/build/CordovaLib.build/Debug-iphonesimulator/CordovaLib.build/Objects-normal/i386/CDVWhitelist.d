@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/travis/Phonegap/habitual/platforms/ios/CordovaLib/Classes/CDVWhitelist.m \
-  /Users/travis/Phonegap/habitual/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+  /Users/travisfavaron/Phonegap/Habitual/platforms/ios/CordovaLib/Classes/CDVWhitelist.m \
+  /Users/travisfavaron/Phonegap/Habitual/platforms/ios/CordovaLib/Classes/CDVWhitelist.h

@@ -1,8 +1,8 @@
 dependencies: \
-  /Users/travis/Phonegap/habitual/platforms/ios/CordovaLib/Classes/CDVPlugin.m \
-  /Users/travis/Phonegap/habitual/platforms/ios/CordovaLib/Classes/CDVPlugin.h \
-  /Users/travis/Phonegap/habitual/platforms/ios/CordovaLib/Classes/CDVPluginResult.h \
-  /Users/travis/Phonegap/habitual/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h \
-  /Users/travis/Phonegap/habitual/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h \
-  /Users/travis/Phonegap/habitual/platforms/ios/CordovaLib/Classes/CDVAvailability.h \
-  /Users/travis/Phonegap/habitual/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+  /Users/travisfavaron/Phonegap/Habitual/platforms/ios/CordovaLib/Classes/CDVPlugin.m \
+  /Users/travisfavaron/Phonegap/Habitual/platforms/ios/CordovaLib/Classes/CDVPlugin.h \
+  /Users/travisfavaron/Phonegap/Habitual/platforms/ios/CordovaLib/Classes/CDVPluginResult.h \
+  /Users/travisfavaron/Phonegap/Habitual/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h \
+  /Users/travisfavaron/Phonegap/Habitual/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h \
+  /Users/travisfavaron/Phonegap/Habitual/platforms/ios/CordovaLib/Classes/CDVAvailability.h \
+  /Users/travisfavaron/Phonegap/Habitual/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h

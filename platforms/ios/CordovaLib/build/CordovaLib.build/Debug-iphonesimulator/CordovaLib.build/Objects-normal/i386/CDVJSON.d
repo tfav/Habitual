@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/travis/Phonegap/habitual/platforms/ios/CordovaLib/Classes/CDVJSON.m \
-  /Users/travis/Phonegap/habitual/platforms/ios/CordovaLib/Classes/CDVJSON.h
+  /Users/travisfavaron/Phonegap/Habitual/platforms/ios/CordovaLib/Classes/CDVJSON.m \
+  /Users/travisfavaron/Phonegap/Habitual/platforms/ios/CordovaLib/Classes/CDVJSON.h

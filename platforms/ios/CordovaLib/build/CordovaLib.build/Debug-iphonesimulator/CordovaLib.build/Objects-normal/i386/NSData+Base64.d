@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/travis/Phonegap/habitual/platforms/ios/CordovaLib/Classes/NSData+Base64.m \
-  /Users/travis/Phonegap/habitual/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+  /Users/travisfavaron/Phonegap/Habitual/platforms/ios/CordovaLib/Classes/NSData+Base64.m \
+  /Users/travisfavaron/Phonegap/Habitual/platforms/ios/CordovaLib/Classes/NSData+Base64.h

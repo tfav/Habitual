@@ -22,34 +22,35 @@
         <meta charset="utf-8" />
         <meta name="format-detection" content="telephone=no" />
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-        <link rel="stylesheet" type="text/css" href="css/index.css" />
-		  <link rel="stylesheet" href="css/style.css" type="text/css" title="no title" charset="utf-8">
-        <title>Hello World</title>
+        <!---<link rel="stylesheet" type="text/css" href="css/index.css" />-->
+		<link rel="stylesheet" href="css/style.css" type="text/css" title="no title" charset="utf-8">
+		<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+        <title>Habitual Life</title>
     </head>
     <body>
         <div id="doc" class="app">
-					<div id="contentWrap">
+			<div id="contentWrap">
 						<div id="header">
 							<h3>Good Afternoon, Travis</h3>
-							<a href="#" id="info">i</a>
+							<a href="settings.html"><i class="icon-info-sign lightBlue"></i></a>
 						</div>
 						<div id="main">
-							<h2>Did you <br><span class="green">write in your journal</span> today?</h2>
+							<h2 id="question" class="offwhite">Did you <br><span class="green">write in your journal</span> today?</h2>
 							<div id="checkYes">
-								<span href="#">&#x2713;</span>
+								<i class="icon-ok icon-ok-btn"></i>
 							</div>
 							<div id="checkNo">
-								<span href="#">&times;</span>
+								<i class="icon-remove icon-remove-btn"></i>
 							</div>
 						</div>
-						<p>Your current streak is 27 weekdays in a row</p>
+						<p id="streak" class="lightBlue">Your current streak is 27 weekdays in a row</p>
 						<div id="calendar">
 							<ul id="calendarList">
-								<li>21<br> <span>Sept</span></li>
-								<li>22<br> <span>Sept</span></li>
-								<li class="active">23<br> <span>Sept</span></li>
-								<li>24<br> <span>Sept</span></li>
-								<li>25<br> <span>Sept</span></li>
+								<li><i class="icon-ok green"></i><br>21<br> <span>Sept</span></li>
+								<li><i class="icon-ok green"></i><br>22<br> <span>Sept</span></li>
+								<li class="active"><i class="icon-circle-blank green"></i><br>23<br> <span>Sept</span></li>
+								<li><i class="icon-circle-blank offwhite"></i><br>24<br> <span>Sept</span></li>
+								<li><i class="icon-circle-blank offwhite"></i><br>25<br> <span>Sept</span></li>
 							</ul>	
 						</div>	
         </div>
